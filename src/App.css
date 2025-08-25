@@ -1,0 +1,82 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #131313;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0077ff;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="url"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type="url"]:focus {
+  border-color: #0077ff;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #0077ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+.short-url-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.copy-btn {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background: #28a745;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #218838;
+}
