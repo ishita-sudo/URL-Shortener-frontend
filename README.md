@@ -1,12 +1,56 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 📌 Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## URL Shortener - Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is the frontend for the URL Shortener project.  
+It is built with **Vite + React** and interacts with the backend API to shorten and manage URLs.
+
+---
+
+## 🚀 Features
+- Enter a long URL and get a short URL instantly
+- Copy short URL to clipboard
+- Deployed on **Vercel**
+- Integrated with backend API on Render
+
+---
+
+## 🛠️ Tech Stack
+- React + Vite
+- CSS (App.css)
+- Axios / Fetch API
+- Vercel (Deployment)
+
+---
+
+## ⚙️ Setup (Local Development)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/url-shortener-frontend.git
+   cd url-shortener-frontend
+### Install dependencies:
+```
+npm install
+```
+
+### Create a .env file in the root of frontend/:
+```
+VITE_API_BASE_URL=http://localhost:5000
+```
+
+### Start the development server:
+```
+npm run dev
+```
+
+### The app will run on: http://localhost:5173
+
+# 🌍 Deployment
+
+### Frontend deployed on Vercel:
+👉 🌐 https://url-shortener-frontend-mocha.vercel.app/
